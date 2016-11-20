@@ -1,0 +1,120 @@
+{"frames": {
+
+"levelchange.png":
+{
+	"frame": {"x":2,"y":2,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":1,"h":1},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"projectile_x.png":
+{
+	"frame": {"x":5,"y":2,"w":26,"h":5},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":5},
+	"sourceSize": {"w":26,"h":5},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"woodsprite.png":
+{
+	"frame": {"x":33,"y":2,"w":22,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":13},
+	"sourceSize": {"w":22,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"idle_axe.png":
+{
+	"frame": {"x":2,"y":17,"w":23,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":15},
+	"sourceSize": {"w":23,"h":15},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"gopher_hole00.png":
+{
+	"frame": {"x":27,"y":17,"w":33,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":15},
+	"sourceSize": {"w":33,"h":15},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"gopher_hole01.png":
+{
+	"frame": {"x":2,"y":34,"w":33,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":15},
+	"sourceSize": {"w":33,"h":15},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"gopher_hole02.png":
+{
+	"frame": {"x":2,"y":51,"w":33,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":15},
+	"sourceSize": {"w":33,"h":15},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"treestump.png":
+{
+	"frame": {"x":37,"y":51,"w":25,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":22},
+	"sourceSize": {"w":25,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"lifesprite.png":
+{
+	"frame": {"x":2,"y":75,"w":32,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":24},
+	"sourceSize": {"w":32,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"projectile_y.png":
+{
+	"frame": {"x":36,"y":75,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"skunkpelt.png":
+{
+	"frame": {"x":2,"y":103,"w":38,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":35},
+	"sourceSize": {"w":38,"h":35},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"harvest_tree.png":
+{
+	"frame": {"x":2,"y":140,"w":64,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":84},
+	"sourceSize": {"w":64,"h":84},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "objects.png",
+	"format": "RGBA8888",
+	"size": {"w":68,"h":226},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f03dc1193bc9b15b871ded0b94cee9e4:a78135c03dc083b6ed39181068f8e6f0:8d6d12ff4d5234f2a4b19e0a906dbf52$"
+}
+}
