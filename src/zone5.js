@@ -186,7 +186,7 @@ BasicGame.level5.prototype.create = function () {
     this.lines = {
         stranger: {
             2: '*I was traveling through the woods,*and I heard something in the bushes.*When I turned to see what it was*I fell in a gopher hole!',
-            3: '*I\'m resting my leg*I twisted my ankle when I stepped on a gopher hole.*I think I saw a skunk in the bush*You should watch out for them.*They seem to be guarding the trees.',
+            3: '*I\'m resting my leg*I twisted my ankle when I fell on hole.*I think I saw a skunk in the bush*You should watch out for them.*They seem to be guarding the trees.',
             4: '*I\'ll be ok, I just need to rest.*I\'ll head back home before it gets dark.'
         }
     };

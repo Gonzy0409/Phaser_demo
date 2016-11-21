@@ -66,7 +66,7 @@ BasicGame.Preload.prototype = {
         this.game.load.image('helpButton', 'assets/img/spritesheets/helpbutton.png');
 
         //Load audio
-        this.game.load.audio('soundtrack', ['assets/audio/ericmusic_loop.ogg', 'assets/audio/ericmusic_loop.mp3']);
+        this.game.load.audio('soundtrack', ['assets/audio/ericmusic_loop.mp3']);
         this.game.load.audio('bush1', ['assets/audio/bush_rustle1.ogg', 'assets/audio/bush_rustle1.mp3']);
         this.game.load.audio('bush2', ['assets/audio/bush_rustle2.ogg', 'assets/audio/bush_rustle2.mp3']);
         this.game.load.audio('skunkgrowl', ['assets/audio/skunkgrowl.ogg', 'assets/audio/skunkgrowl.mp3']);

@@ -29,6 +29,17 @@ BasicGame.win.prototype = {
         this.menu.anchor.y = .5;
     },
     update: function () {
+        localStorage.removeItem('haveAxe');
+        localStorage.removeItem('checkpoint');
+        localStorage.removeItem('finished');
+        localStorage.removeItem('lives');
+        localStorage.removeItem('playerX');
+        localStorage.removeItem('playerY');
+        localStorage.removeItem('pelts');
+        localStorage.removeItem('wood');
+        localStorage.removeItem('skunkSpawns');
+        localStorage.removeItem('treeSpawns');
+
         if (this.game.input.keyboard.isDown(Phaser.Keyboard.ENTER) || this.game.input.activePointer.isDown) {
             setTimeout(function(){window.location.href='./index.html';}, 200);
         }

@@ -56,7 +56,7 @@ BasicGame.Open.prototype = {
             this.game.state.start(BasicGame.lastLocation);
             //Start music in menu
             BasicGame.music = this.game.add.sound('soundtrack');
-            BasicGame.music.volume = 0.5;
+            BasicGame.music.volume = 0.1;
             BasicGame.music.play('', 0, 1, true);
 
             //load the skunk growl
