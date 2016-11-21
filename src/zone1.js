@@ -1,7 +1,6 @@
 /*
- * @author          Gonzalo Serrano <gonzalo@7generationgames.com>
- * @copyright       2015 7 Generation Games
- *
+ * @author Gonzalo Serrano <sergon0409@gmail.com>
+ * 
  * @Overview
  * Zone 1 where player starts the game at their house.
  */

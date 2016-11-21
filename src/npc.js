@@ -1,13 +1,13 @@
 /*
- * @author          Gonzalo Serrano <gonzalo@7generationgames.com>
- * @copyright       2015 7 Generation Games
- *
+ * @author Gonzalo Serrano <sergon0409@gmail.com>
+ * 
  * @Overview
  * NPC class
  */
 /* global Phaser, player, dialogue, tileSize */
 'use strict';
 
+// This is a global function. Since this is loaded at start I put it here.
 function lineDistance(point1, point2) {
     var x = 0;
     var y = 0;
@@ -18,7 +18,7 @@ function lineDistance(point1, point2) {
     return Math.sqrt(x + y);
 }
 
-//x is the columns and y is the rows
+//x is the columns and y is the rows in tile size, NOT pixel size
 var Npc = function (game, x, y, name, script) {
     this.game = game;
     this.sprite = this.game.add.sprite(tileSize * x, tileSize * y, 'characters', name);

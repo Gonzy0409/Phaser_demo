@@ -1,6 +1,5 @@
 /*
- * @author          Gonzalo Serrano <gonzalo@7generationgames.com>
- * @copyright       2015 7 Generation Games
+ * @author Gonzalo Serrano <sergon0409@gmail.com>
  * 
  * @Overview
  * Player class
@@ -126,7 +125,7 @@ Player.prototype = {
             this.sprite.direction = 'down';
             this.sprite.animations.play('down');
         }
-        else {
+        else { //The idle states
             if (this.sprite.direction === 'up') {
                 this.sprite.animations.play('idleup');
             }
@@ -147,7 +146,7 @@ Player.prototype = {
         }
         this.harvestTime = 0;
         this.harvesting = true;
-        switch (this.sprite.direction) {
+        switch (this.sprite.direction) { //The chopping animations
             case 'left':
                 this.sprite.animations.play('chopleft');
                 break;
@@ -162,7 +161,7 @@ Player.prototype = {
                 break;
             default:
                 break;
-        }
+        } //A wait for time event
         this.game.time.events.add(Phaser.Timer.SECOND, function () {
             this.harvesting = false;
         }, this);

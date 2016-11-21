@@ -1,14 +1,13 @@
 /*
- * @author          Gonzalo Serrano <gonzalo@7generationgames.com>
- * @copyright       2015 7 Generation Games
- *
+ * @author Gonzalo Serrano <sergon0409@gmail.com>
+ * 
  * @Overview
  * skunk class
  */
 /* global Phaser, player, dialogue, tileSize */
 'use strict';
 
-//x is the location in column tiles, y is the location in row tiles.
+//x is the location in column tiles, y is the location in row tiles. NOT measured in pixel size
 var Skunk = function (game, x, y, skunkNum) {
     this.game = game;
     this.skunkNum = skunkNum;

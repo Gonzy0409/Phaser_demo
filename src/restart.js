@@ -1,6 +1,5 @@
 /*
- * @author          Gonzalo Serrano <gonzalo@7generationgames.com>
- * @copyright       2015 7 Generation Games
+ * @author Gonzalo Serrano <sergon0409@gmail.com>
  * 
  * @Overview
  * Restart is used when the player falls into the river

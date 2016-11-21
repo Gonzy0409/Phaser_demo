@@ -1,6 +1,5 @@
 /*
- * @author          Gonzalo Serrano <gonzalo@7generationgames.com>
- * @copyright       2015 7 Generation Games
+ * @author Gonzalo Serrano <sergon0409@gmail.com>
  * 
  * @Overview
  * Show the game over screen.
